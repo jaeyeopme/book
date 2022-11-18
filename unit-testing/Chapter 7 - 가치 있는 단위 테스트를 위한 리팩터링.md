@@ -540,7 +540,7 @@ public class UserController
 ```cs
 // CanExecute/Execute 패턴을 사용한 이메일 변경
 
-    public void CanChangeEmail()
+    public string CanChangeEmail()
     {
         if (user.IsEmailConfirmed)
             return "Can't change a confirmed email";

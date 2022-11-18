@@ -36,8 +36,9 @@
 > 주요 흐름은 시나리오의 성공적인 실행을 말하며, 예외 상황은 비즈니스 시나리오 수행 중 오류 발생을 말한다.
 
 <p align="center">
-<img src="https://shorturl.at/iBKLY" alt="테스트 피라미드" width="500" height="400" />
+<img src="https://www.intentionet.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-04-at-11.41.06-PM.png" alt="테스트 피라미드" width="500" height="400" />
 </p>
+
 
 대부분 단위 테스트로 전환하면 **유지비**를 절감할 수 있으며, **비즈니스 시나리오 당** 중요한 통합 테스트가 하나 또는 두 개 있으면 시스템 **정확도**를 보장할 수 있다.
 

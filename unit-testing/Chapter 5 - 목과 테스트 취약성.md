@@ -69,7 +69,7 @@ public void Purchase_failes_when_not_enough_inventory()
         storeMock.Object, Product.Shampoo, 5);
         
     Assert.False(success);
-    // SUT 에서 수행한 호출을 검사
+    // SUT에서 수행한 호출을 검사
     storeMock.Verify(
         x => x.RemoveInventory(Product.Shampoo, 5),
         Times.Never);
